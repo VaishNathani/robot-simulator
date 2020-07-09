@@ -1,22 +1,21 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ReactiveFormsModule } from '@angular/forms';
-import { ControlPanelComponent } from './control-panel.component';
+import { TableAreaComponent } from './table-area.component';
 
-describe('ControlPanelComponent', () => {
-  let component: ControlPanelComponent;
-  let fixture: ComponentFixture<ControlPanelComponent>;
+describe('TableAreaComponent', () => {
+  let component: TableAreaComponent;
+  let fixture: ComponentFixture<TableAreaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ControlPanelComponent ],
+      declarations: [ TableAreaComponent ],
       imports: [ ReactiveFormsModule ],      
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ControlPanelComponent);
+    fixture = TestBed.createComponent(TableAreaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

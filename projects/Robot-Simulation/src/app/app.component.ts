@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TableAreaComponent } from './table-area/table-area.component';
 
 @Component({
   selector: 'app-root',
