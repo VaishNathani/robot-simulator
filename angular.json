@@ -25,7 +25,8 @@
             "aot": true,
             "assets": [
               "projects/Robot-Simulation/src/favicon.ico",
-              "projects/Robot-Simulation/src/assets"
+              "projects/Robot-Simulation/src/assets",
+              "projects/Robot-Simulation/src/assets/images/robot-48.png"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
@@ -90,7 +91,8 @@
             "karmaConfig": "projects/Robot-Simulation/karma.conf.js",
             "assets": [
               "projects/Robot-Simulation/src/favicon.ico",
-              "projects/Robot-Simulation/src/assets"
+              "projects/Robot-Simulation/src/assets",
+              "projects/Robot-Simulation/src/assets/images/robot-48.png"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
