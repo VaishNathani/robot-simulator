@@ -121,11 +121,8 @@ export class TableAreaComponent implements OnInit, AfterViewInit {
     this.RotationDegreeForPlace = this.cpService.getRotationDegreeForPlace(this.cmdFacing);
      
     elRobot.style.transform = `translate(${this.pixX}px,-${this.pixY}px) rotate(${this.RotationDegreeForPlace}deg)`;
-    console.log(elRobot.style.transform);
     elRobot.style.transform = `rotate(${this.RotationDegreeForPlace}deg translate(${this.pixX}px,-${this.pixY}px)`;    
-   
-    console.log(elRobot.style.transform);
-
+       
    }
     
   logResult(): void

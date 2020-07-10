@@ -37,7 +37,7 @@ export class ReportComponent implements OnInit {
     elLbl.style.visibility = 'visible';
     elBtn.style.visibility = 'visible';
     elDiv.style.visibility = 'visible';
-
+    
     setTimeout(() => { 
       elLbl.style.visibility = 'hidden';
       elBtn.style.visibility = 'hidden';

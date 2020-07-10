@@ -70,13 +70,11 @@ export class ControlPanelService {
      this.pixY = posCordinates[1];
 
      this.borderUpperLimit = (this.oneUnitInPixels * environment.UnitUpperLimit) - environment.ImageLength;
-    
-     console.log(this.borderUpperLimit);
+       
      this.borderLimitCheck(cmdFacing);
      posCordinates[0] = this.pixX;
      posCordinates[1] = this.pixY;
-     console.log(cmdFacing);
-     console.log(this.pixX);
+    
      return posCordinates;     
     }
   // tslint:disable-next-line: align
@@ -114,8 +112,6 @@ export class ControlPanelService {
       }
     }
     this.borderUpperLimit = (this.oneUnitInPixels * environment.UnitUpperLimit)  - environment.ImageLength;
-   
-    console.log(this.borderUpperLimit);
     this.pixX = posCordinates[0];
     this.pixY = posCordinates[1];
     this.borderLimitCheck(newFacing);

@@ -4,12 +4,13 @@
       (plcBtnClickedEvent)="getFormValidValue($event)"  (xValueEvent)="getXValue($event)" (yValueEvent)="getYValue($event)"></app-control-panel>
             
   </mat-drawer>
-  <mat-drawer-content> 
-    <div class="parent-div"> 
-    <div class="divDimension">          
-        <h2>Toy Robot Simulator</h2>
-        <app-report #r [resultStr]="resultString"  ></app-report>
-                
+  <mat-drawer-content>
+    <div class="parent-div">      
+    <div class="divDimension">    
+         <h2 class="h2-style">Toy Robot Simulator</h2>
+              
+       <app-report #r [resultStr]="resultString"  ></app-report>
+              
       <table id="tbl-area" name="tbl-area" class="table-area">
           <tr class="rowHt">
               <td id="tbl-column" class="rowHt">   
@@ -19,7 +20,7 @@
       </table>        
     </div>        
       <div id="log-div" class="log-style">            
-        <h2>***Command Log</h2>
+        <h2 class="h2-style">***Command Log</h2>
         <div id="del-div" class="log-del">
           <p>
           <button mat-icon-button id="close" name="close" color="basic" (click)="clearLog()">
